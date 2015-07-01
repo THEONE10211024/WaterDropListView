@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:id="@+id/waterdroplistview_footer_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        <LinearLayout
+                android:id="@+id/progresslayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ProgressBar
+                    android:id="@+id/waterdroplistview_footer_progressbar"
+                    android:layout_width="27dip"
+                    android:layout_height="27dip"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"
+                android:indeterminate="false" />
+
+            <TextView
+                    android:id="@+id/txt_progresstext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+<!--                     android:text="@string/xlistview_header_hint_loading"/> -->
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/waterdroplistview_footer_hint_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/listfooterview_normal"/>
+    </RelativeLayout>
+
+</LinearLayout>
