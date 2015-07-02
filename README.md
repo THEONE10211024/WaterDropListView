@@ -29,4 +29,4 @@ public void onLoadMore()
 3.Then you can use it just like the ListView.    
 ##Summary
 If you have any problem ,please let me know! Hope you like it!   
-PS:[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WaterDropListView-green.svg?style=flat)](https://android-arsenal.com/details/1/2078)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WaterDropListView-green.svg?style=flat)](https://android-arsenal.com/details/1/2078)
